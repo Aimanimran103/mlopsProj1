@@ -27,7 +27,7 @@ st.write(f"Model{accuracy}")
 st.header("Real-Time Prediction")
 input_data=[]
 for col in X_test.columns:
-    input_value=st.number_input(f'Input for feature {col}',value='')
+    input_value=st.number_input(f'Input for feature {col}',value='0')
     input_data.append(input_value)
 
 #convert input data to dataframe
