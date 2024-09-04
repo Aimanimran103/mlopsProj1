@@ -20,7 +20,7 @@ y_pred=model.predict(X_test)
 accuracy=accuracy_score(y_test,y_pred)
 
 #Display accuracy
-st.title("Model Accuracy and Real-Time Prediction")
+st.title("Model Accuracy and Real-Time Prediction Are Changed")
 st.write(f"Model{accuracy}")
 
 #Real time prediction based on user inputs
